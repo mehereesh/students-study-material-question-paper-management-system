@@ -1,0 +1,359 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333; /* Updated classic color */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    max-width: 50px; /* Adjust size as necessary */
+    height: auto;
+    margin-right: 20px;
+}
+
+.header-container h1 {
+    color: white;
+    margin: 0;
+    flex-grow: 1; /* Allow the title to take available space */
+}
+
+.logout-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.dashboard-buttons {
+    margin: 20px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333333; /* Updated classic color */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+.download-section {
+    margin-top: 20px;
+}
+
+.download-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.download-table th, .download-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.download-table th {
+    background-color: #333333; /* Updated classic color */
+    color: white;
+}
+
+.download-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.download-button {
+    background-color: #333333; /* Updated classic color */
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #555555;
+}
+
+.login-selection,
+.login-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Fixed width for the forms */
+    text-align: center;
+    margin: 50px auto; /* Center the login form */
+}
+
+.login-selection h1,
+.login-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-selection a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.login-selection a:hover {
+    color: #0056b3;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+header {
+    background-color: #343a40; /* Classic dark color */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header img.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 80px; /* Adjust logo size */
+    height: auto;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+a.back-to-dashboard {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a.back-to-dashboard:hover {
+    color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #343a40;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.download-button {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Form Styles */
+.upload-section {
+    margin-bottom: 30px;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.upload-form input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+/* Highlighted Note Section Styling */
+.note-section {
+    background: linear-gradient(135deg, #ffefd5, #ffe4b5); /* Soft gradient for a warm tone */
+    border: 2px solid #ffb347; /* Bright orange border */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-size: 18px;
+    position: relative;
+    animation: highlight-glow 2s infinite alternate; /* Glow effect animation */
+}
+
+/* Highlight Glow Effect */
+@keyframes highlight-glow {
+    from {
+        box-shadow: 0 4px 8px rgba(255, 179, 71, 0.5); /* Bright glow */
+    }
+    to {
+        box-shadow: 0 4px 8px rgba(255, 179, 71, 0.8); /* Subtle pulsation */
+    }
+}
+
+.note {
+    color: #333; /* Contrast text color for readability */
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.note strong {
+    color: #d2691e; /* Highlighted important text in chocolate brown */
+    font-weight: bold;
+}
+
+.note::before {
+    content: "⚠️ "; /* Attention icon */
+    font-size: 24px;
+    vertical-align: middle;
+    color: #ff4500; /* Bright orange-red icon color */
+    margin-right: 5px;
+}
+.note-button-container {
+    text-align: center; /* Centers the button */
+    margin-top: 15px;
+}
+
+.note-button {
+    display: inline-block;
+    background-color: #1a219a; /* Orange button background */
+    color: #fff; /* White text for contrast */
+    text-decoration: none; /* Removes underline */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px; /* Adds spacing */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+.note-button:hover {
+    background-color: #ff8c00; /* Darker orange on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.note-button:active {
+    background-color: #612ead; /* Even darker orange on click */
+    transform: translateY(1px); /* Button presses down */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow */
+}
